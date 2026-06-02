@@ -31,26 +31,27 @@ src/
 ├── App.js
 └── index.js
 ```
-###💻 Code Overview
-State: The component maintains an internal state initialized with mangoes: 0 and bananas: 0.
+💻 Code Overview
 
-Event Handlers: onMango and onBanana utilize this.setState() with a functional argument (prevState) to safely update the count based on the previous state.
+*  **State**: The component maintains an internal state initialized with mangoes: 0 and bananas: 0.
 
-Destructuring: Extracted mangoes and bananas from this.state inside the render() method for cleaner JSX syntax.
+*  **Event Handlers**: onMango and onBanana utilize this.setState() with a functional argument (prevState) to safely update the count based on the previous state.
+
+*  **Destructuring88: Extracted mangoes and bananas from this.state inside the render() method for cleaner JSX syntax.
 
 🏁 Getting Started
-Follow these steps to get the project up and running locally.
+* Follow these steps to get the project up and running locally.
 
 Prerequisites
-Make sure you have Node.js (v14.x or higher recommended) and npm installed on your machine. You can check your versions using:
+* Make sure you have Node.js (v14.x or higher recommended) and npm installed on your machine. You can check your versions using:
 
 ```bash
 node -v
 npm -v
 ```
 Installation
-Clone the repository (or create a new React app if setting up from scratch):
-
 ```bash
+
+Clone the repository (or create a new React app if setting up from scratch):
 npx create-react-app fruits-counter-app
 cd fruits-counter-app
