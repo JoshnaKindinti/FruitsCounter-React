@@ -1,0 +1,73 @@
+/* Write your CSS here */
+* {
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+}
+.container {
+  background-color: #ffffff;
+  border-radius: 10px;
+  font-family: 'Roboto';
+  text-align: center;
+  margin: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+.background {
+  background-color: #ffd569;
+  overflow: scroll;
+}
+.heading {
+  color: #000000;
+  font-size: 40px;
+  font-weight: bold;
+  padding: 10px;
+}
+.number {
+  color: #ffd569;
+}
+.blocks{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  margin: 10px;
+}
+.block{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  margin: 10px;
+}
+.image{
+  height: 250px;
+  width: 250px;
+  padding: 20px;
+}
+.button{
+  background-color: #007bff;
+  border-radius: 10px;
+  padding: 15px;
+  font-size: 15px;
+  color: white;
+  border: none;
+}
+@media screen and (max-width: 576px){
+  .heading{
+    font-size: 30px;
+  }
+  .blocks{
+    display: flex;
+    flex-direction: column;
+  }
+  .image{
+    width: 200px;
+    height: 200px;
+  }
+}
