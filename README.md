@@ -37,7 +37,7 @@ src/
 
 *  **Event Handlers**: onMango and onBanana utilize this.setState() with a functional argument (prevState) to safely update the count based on the previous state.
 
-*  **Destructuring88: Extracted mangoes and bananas from this.state inside the render() method for cleaner JSX syntax.
+*  **Destructuring**: Extracted mangoes and bananas from this.state inside the render() method for cleaner JSX syntax.
 
 🏁 Getting Started
 * Follow these steps to get the project up and running locally.
